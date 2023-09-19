@@ -1,0 +1,298 @@
+.header-left-content {
+    padding: 10px;
+}
+
+.header-para {
+    width: 60%;
+}
+
+.guylesson {
+    height: 450px;
+    width: 300px;
+}
+
+.feature-title {
+    color: green;
+    margin-bottom: 20px;
+}
+
+.bi-book,
+.bi-tag,
+.bi-award {
+    color: green;
+}
+
+.feature-main-container {
+    background-color: #FFE5AD;
+
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4 {
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.card-1 {
+    background-color: #1A5D1A;
+
+}
+
+.card-2 {
+    background-color: #FCFFE7;
+}
+
+.card-4 {
+    background-color: #FCFFE7;
+}
+
+.card-3 {
+    background-color: #FCFFE7;
+}
+
+.icon-box-4 {
+    width: 100px;
+    height: 100px;
+    background-color: #78C1F3;
+    color: white
+}
+
+.icon-box-3 {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    color: green;
+
+}
+
+.icon-box-2 {
+    width: 100px;
+    height: 100px;
+    background-color: #9BE8D8;
+    color: green;
+
+}
+
+.icon-box-1 {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    color: #539165;
+
+}
+
+
+@media (min-width:992px) {
+    .card-2 {
+        position: relative;
+        bottom: 180px;
+    }
+
+    .card-3 {
+        position: relative;
+        top: 140px;
+    }
+
+    .feature-left-content {
+        margin-top: 23%;
+
+    }
+
+    .feature-main-container {
+        margin-top: 170px;
+
+    }
+}
+
+@media (min-width:768px) {
+
+    .feature-left-content {
+        margin-top: 10%;
+
+    }
+
+    .feature-main-container {
+        margin-top: 170px;
+
+    }
+}
+
+.orange {
+    height: 450px;
+    width: 400px;
+
+}
+
+.feature3-left-content {
+    margin-right: 10%;
+
+}
+
+.feature3-right-content {
+    padding: 20px;
+
+}
+
+.feature3-main-content {
+    margin-top: 15%;
+
+}
+
+.feature3-h3 {
+    display: inline-block;
+}
+
+.play-icon {
+    color: green;
+}
+
+.count {
+    display: inline-block;
+    margin: 5px;
+}
+
+.feature3-box {
+    margin: -30px;
+    padding: 20px;
+    height: 270px;
+    width: 220px;
+    background-color: #F5F5F580;
+    position: relative;
+    left: 260px;
+    bottom: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.icon-1 {
+    color: rgb(165, 165, 27);
+}
+
+.icon-2 {
+    color: rgb(33, 5, 126)
+}
+
+.icon-3 {
+    color: purple
+}
+
+.icon-1,
+.icon-2,
+.icon-3 {
+    margin: 8px;
+    padding: 6px;
+    height: 25px;
+    width: 30px;
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+@media (max-width:576px) {
+    .feature3-box {
+        height: 200px;
+        width: 200px;
+        background-color: #F5F5F580;
+        position: relative;
+        left: 80px;
+        bottom: 70px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .orange {
+        height: 450px;
+        width: 300px;
+        margin: 30px;
+    }
+}
+
+@media (min-width:576px) {
+
+    .feature3-main-content {
+        margin-left: 14%;
+    }
+}
+
+@media (min-width:1025px) {
+
+    .feature3-main-content {
+        margin-left: 20%;
+    }
+
+}
+
+.gallery-title {
+    color: green;
+}
+
+.people-1,
+.people-2,
+.people-3,
+.people-4 {
+    background-color: rgb(255, 250, 239);
+    box-sizing: content-box;
+    margin-right: 2%;
+    margin-bottom: 20px;
+}
+
+.faStar {
+    color: #f5b835;
+    padding: 3px;
+}
+
+.testimonial-title {
+    color: green
+}
+
+.testimonial-content {
+    margin-top: 10%;
+}
+
+@media(min-width:992px) {
+
+    .people-1,
+    .people-2,
+    .people-3,
+    .people-4 {
+        margin-right: 50px;
+    }
+}
+
+.testimonial-image {
+    height: 50px;
+    border-radius: 50%;
+}
+
+.rowtitle {
+    position: relative;
+}
+
+.rowtitleground {
+    height: 200px;
+    width: 200px;
+    background-image: url('../svg/svggreen.svg');
+    background-repeat: no-repeat;
+    /* Prevent background from repeating */
+    position: absolute;
+    top: 20vh;
+    left: 70vh;
+
+}
+
+.custom-book-icon1 {
+    transform: rotate(-45deg);
+    color: green;
+    position: absolute;
+    top: 5vh;
+    left: 0vh;
+    height: 25px;
+}
+
+.custom-book-icon2 {
+    transform: rotate(35deg);
+    color: green;
+    position: absolute;
+    top: 55vh;
+    right: 10vh;
+    height: 25px;
+}

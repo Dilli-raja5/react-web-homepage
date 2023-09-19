@@ -1,0 +1,65 @@
+.testimonialcol {
+    border: none;
+    padding: 20px;
+    text-align: left;
+    background-color: #FAFAFA;
+    box-shadow: 3px 3px 18px 8px #BDBDBD;
+
+}
+
+.testimonial-content {
+    position: relative;
+    margin-top: 10%;
+}
+
+.testimonial-image {
+    height: 50px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.testimonialicon {
+    padding-bottom: 10px;
+}
+
+.testimonialbottom {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.custom-book-icon {
+    transform: rotate(35deg);
+    color: green;
+    position: absolute;
+    top: 60px;
+    right: 30vh;
+    height: 25px;
+}
+
+.testimonialbockground {
+    width: 200px;
+    height: 200px;
+    background-image: url('../svg/circle.svg');
+    background-size: cover;
+    /* Cover the entire div with the background */
+    background-repeat: no-repeat;
+    /* Prevent background from repeating */
+    position: absolute;
+    top: 10vh;
+    left: 1vh;
+
+}
+
+.testimonialbockground2 {
+    width: 200px;
+    height: 200px;
+    background-image: url('../svg/circle2.svg');
+    background-size: cover;
+    /* Cover the entire div with the background */
+    background-repeat: no-repeat;
+    /* Prevent background from repeating */
+    position: absolute;
+    top: 55vh;
+    right: 6vh;
+
+}

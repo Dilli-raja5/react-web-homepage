@@ -1,0 +1,96 @@
+.Div {
+
+
+    background-repeat: no-repeat;
+    background-image: url('../svg/wave.svg'), url('../svg/wavetop.svg');
+    /* background-image: url('image1.jpg'), url('image2.jpg'), url('image3.jpg'); */
+
+}
+
+.background {
+    padding: 10vh;
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.Card {
+    background-color: #F5F5F5;
+    border-radius: 3vh;
+}
+
+.formtitle {
+    text-align: center;
+    font-weight: 700;
+    padding: 8vh;
+    font-size: xx-large !important;
+}
+
+.Title {
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #388E3C;
+}
+
+.Subtitle {
+    font-size: large;
+    font-weight: 700;
+}
+
+.formlabel {
+    font-size: medium;
+    font-weight: 500;
+    border: none;
+
+}
+
+.no-rounded-border {
+    border-radius: 0 !important;
+}
+
+.formspan {
+    color: red;
+}
+
+.Inputrow {
+    padding: 4vh;
+
+}
+
+.registerbtn {
+    background-color: #388E3C;
+    border: none;
+    border-radius: 50px;
+
+}
+
+.formlable {
+    padding-left: 10vh;
+    padding-right: 10vh;
+}
+
+.registerbtn:hover {
+    background-color: green;
+    /* Change to your desired hover color */
+    color: white;
+    /* Change text color for better contrast */
+
+}
+
+.containerimage {
+    position: relative;
+    /* Use 'relative' or 'absolute' based on your needs */
+    top: 70vh;
+    /* Adjust the position values as needed */
+    left: 50px;
+    margin-top: 20px;
+}
+
+.containerimage {
+    width: 100%;
+    height: 100vh;
+    /* Adjust the height as needed */
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns=&quot;http://www.w3.org/2000/svg&quot; viewBox=&quot;0 0 1440 320&quot;><path fill=&quot;#FFECB3&quot; fill-opacity=&quot;1&quot; d=&quot;M0,0L120,21.3C240,43,480,85,720,133.3C960,181,1200,235,1320,261.3L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z&quot;></path></svg>');
+    background-size: cover;
+    background-color: #388E3C;
+}
